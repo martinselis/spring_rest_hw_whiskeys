@@ -26,4 +26,6 @@ public class WhiskyController {
     public List<Whisky> getWhiskiesByRegion(@PathVariable String region) {
         return whiskyRepo.findWhiskeysByRegion(region);
     }
+
+
 }
